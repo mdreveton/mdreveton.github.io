@@ -21,10 +21,6 @@ announcements:
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
-latest_posts:
-  enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 ---
 
 I am a postdoctoral researcher at [INDY Lab](https://indy.epfl.ch), in EPFL, supervised by [Patrick Thiran](https://people.epfl.ch/patrick.thiran) and [Matthias Grossglauser](https://indy.epfl.ch/grossglauser/index.html). My research interests involve network analysis, especially graph clustering and random graphs. I obtained my PhD in Computer Science in 2022 from Inria Sophia Antipolis, under the supervision of [Konstantin Avratchenkov](https://www-sop.inria.fr/members/Konstantin.Avratchenkov/me.html).
