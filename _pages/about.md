@@ -9,9 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: True # crops the image to make it circular
   more_info: >
-    <p>EPFL, Station 14</p>
-    <p>INF 014</p>
-    <p>1015 Lausanne, Switzerland 12345</p>
+    <p>EPFL</p>
+    <p> Office: INF 014</p>
+    <p>1015 Lausanne, Switzerland</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -23,4 +23,4 @@ announcements:
 
 ---
 
-I am a postdoctoral researcher at [INDY Lab](https://indy.epfl.ch), in EPFL, supervised by [Patrick Thiran](https://people.epfl.ch/patrick.thiran) and [Matthias Grossglauser](https://indy.epfl.ch/grossglauser/index.html). My research interests involve network analysis, especially graph clustering and random graphs. I obtained my PhD in Computer Science in 2022 from Inria Sophia Antipolis, under the supervision of [Konstantin Avratchenkov](https://www-sop.inria.fr/members/Konstantin.Avratchenkov/me.html).
+I am a postdoctoral researcher at [INDY Lab](https://indy.epfl.ch), in EPFL, supervised by [Patrick Thiran](https://people.epfl.ch/patrick.thiran) and [Matthias Grossglauser](https://indy.epfl.ch/grossglauser/index.html). My research interests involve network analysis, especially graph clustering and random graphs. I obtained my PhD in Computer Science in 2022 from Inria Sophia Antipolis, under the supervision of [Konstantin Avratchenkov](https://www-sop.inria.fr/members/Konstantin.Avratchenkov/me.html). 
