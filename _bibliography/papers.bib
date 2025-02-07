@@ -27,27 +27,32 @@
 
 
 
-@article{dreveton2024metric,
+@inproceedings{dreveton2024metric,
   abbr={NeurIPS},
   selected={true},
   author={Maximilien Dreveton and Charbel Chucri and Matthias Grossglauser and Patrick Thiran},
   title={Why the Metric Backbone Preserves Community Structure},
   year={2024},
-  journal={Advances in Neural Information Processing Systems},
-  volume={36},
+  booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
   url = {https://openreview.net/forum?id=Kx8I0rP7w2},
   abstract = {The metric backbone of a weighted graph is the union of all-pairs shortest paths. It is obtained by removing all edges (u,v) that are not the shortest path between u and v. In networks with well-separated communities, the metric backbone tends to preserve many inter-community edges, because these edges serve as bridges connecting two communities, but tends to delete many intra-community edges because the communities are dense. This suggests that the metric backbone would dilute or destroy the community structure of the network. However, this is not borne out by prior empirical work, which instead showed that the metric backbone of real networks preserves the community structure of the original network well. In this work, we analyze the metric backbone of a broad class of weighted random graphs with communities, and we formally prove the robustness of the community structure with respect to the deletion of all the edges that are not in the metric backbone. An empirical comparison of several graph sparsification techniques confirms our theoretical finding and shows that the metric backbone is an efficient sparsifier in the presence of communities.},
-  openreview = {https://openreview.net/forum?id=Kx8I0rP7w2}
+  html = {https://openreview.net/forum?id=Kx8I0rP7w2}
 }
 
 
 
-@article{dreveton2024universal,
+@inproceedings{dreveton2024universal,
   abbr={COLT},
   title = {Universal Lower Bounds and Optimal Rates: Achieving Minimax Clustering Error in Sub-Exponential Mixture Models},
   author = {Dreveton, Maximilien and G{\"o}zeten, Alperen and Grossglauser, Matthias and Thiran, Patrick},
   year = {2024},
-  pmlr = {https://proceedings.mlr.press/v247/dreveton24a.html}
+  booktitle = {Proceedings of Thirty Seventh Conference on Learning Theory},
+  publisher =    {PMLR},
+  volume = 	 {247},
+  pages = 	 {1451--1485},
+  abstract = {Clustering is a pivotal challenge in unsupervised machine learning and is often investigated through the lens of mixture models. The optimal error rate for recovering cluster labels in Gaussian and sub-Gaussian mixture models involves ad hoc signal-to-noise ratios. Simple iterative algorithms, such as Lloyd’s algorithm, attain this optimal error rate. In this paper, we first establish a universal lower bound for the error rate in clustering any mixture model, expressed through Chernoff information, a more versatile measure of model information than signal-to-noise ratios. We then demonstrate that iterative algorithms attain this lower bound in mixture models with sub-exponential tails, notably emphasizing location-scale mixtures featuring Laplace-distributed errors. Additionally, for datasets better modelled by Poisson or Negative Binomial mixtures, we study mixture models whose distributions belong to an exponential family. In such mixtures, we establish that Bregman hard clustering, a variant of Lloyd’s algorithm employing a Bregman divergence, is rate optimal.},
+  html = {https://proceedings.mlr.press/v247/dreveton24a.html},
+  pdf = {https://proceedings.mlr.press/v247/dreveton24a/dreveton24a.pdf}
 }
 
 
@@ -65,16 +70,15 @@
 
 
 
-@article{dreveton2023exact,
+@inproceedings{dreveton2023exact,
   abbr={NeurIPS},
   title={Exact recovery and Bregman hard clustering of node-attributed Stochastic Block Model},
   author={Dreveton, Maximilien and Fernandes, Felipe and Figueiredo, Daniel},
-  journal={Advances in Neural Information Processing Systems},
-  volume={36},
+  booktitle={The Thirty-seventh Conference on Neural Information Processing Systems},
   year={2023},
   url = {https://openreview.net/forum?id=TjJJmcHw9p},
   abstract = {Classic network clustering tackles the problem of identifying sets of nodes (communities) that have similar connection patterns. However, in many scenarios nodes also have attributes that are correlated and can also be used to identify node clusters. Thus, network information (edges) and node information (attributes) can be jointly leveraged to design high-performance clustering algorithms. Under a general model for the network and node attributes, this work establishes an information-theoretic criteria for the exact recovery of community labels and characterizes a phase transition determined by the Chernoff-Hellinger divergence of the model. The criteria shows how network and attribute information can be exchanged in order to have exact recovery (e.g., more reliable network information requires less reliable attribute information). This work also presents an iterative clustering algorithm that maximizes the joint likelihood, assuming that the probability distribution of network interactions and node attributes belong to exponential families. This covers a broad range of possible interactions (e.g., edges with weights) and attributes (e.g., non-Gaussian models) while also exploring the connection between exponential families and Bregman divergences. Extensive numerical experiments using synthetic and real data indicate that the proposed algorithm outperforms algorithms that leverage only network or only attribute information as well as recently proposed algorithms that perform clustering using both sources of information. The contributions of this work provide insights into the fundamental limits and practical techniques for inferring community labels on node-attributed networks.},
-  openreview = {https://openreview.net/forum?id=TjJJmcHw9p},
+  html = {https://openreview.net/forum?id=TjJJmcHw9p},
   video = {https://neurips.cc/virtual/2023/poster/71540},
   poster = {https://maximiliendreveton.fr/wordpress2/wp-content/uploads/2024/10/Poster_Bregman_clustering_for_node_attributed_networks.pdf}
 }
@@ -85,7 +89,7 @@
   abbr={preprint},
   title={When Does Bottom-up Beat Top-down in Hierarchical Community Detection?},
   author={Dreveton, Maximilien and Kuroda, Daichi and Grossglauser, Matthias and Thiran, Patrick},
-  journal = {arXiv preprint arXiv:2306.00833},
+  journal = {preprint arXiv:2306.00833},
   year={2023},
   abstract = {Hierarchical clustering of networks consists in finding a tree of communities, such that lower levels of the hierarchy reveal finer-grained community structures. There are two main classes of algorithms tackling this problem. Divisive (top-down) algorithms recursively partition the nodes into two communities, until a stopping rule indicates that no further split is needed. In contrast, agglomerative (bottom-up) algorithms first identify the smallest community structure and then repeatedly merge the communities using a linkage method. In this article, we establish theoretical guarantees for the recovery of the hierarchical tree and community structure of a Hierarchical Stochastic Block Model by a bottom-up algorithm. We also establish that this bottom-up algorithm attains the information-theoretic threshold for exact recovery at intermediate levels of the hierarchy. Notably, these recovery conditions are less restrictive compared to those existing for top-down algorithms. This shows that bottom-up algorithms extend the feasible region for achieving exact recovery at intermediate levels. Numerical experiments on both synthetic and real data sets confirm the superiority of bottom-up algorithms over top-down algorithms. We also observe that top-down algorithms can produce dendrograms with inversions. These findings contribute to a better understanding of hierarchical clustering techniques and their applications in network analysis.},
   arXiv = {https://arxiv.org/abs/2306.00833}
