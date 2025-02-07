@@ -94,18 +94,25 @@ ninja.data = [{
           window.open("mailto:%6D%61%78%69%6D%69%6C%69%65%6E.%64%72%65%76%65%74%6F%6E@%65%70%66%6C.%63%68", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://github.com/mdreveton", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("/feed.xml", "_blank");
+          window.open("https://www.linkedin.com/in/maximilien-dreveton-42889a107", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'ORCID',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://orcid.org/0000-0001-6613-0615", "_blank");
         },
       },{
         id: 'social-scholar',
