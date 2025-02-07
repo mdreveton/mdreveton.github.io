@@ -20,20 +20,19 @@
     {
       "name": "Ecole Polytechnique Federale De Lausanne",
       "position": "Postdoctoral researcher",
-      "url": "",
+      "url": "https://www.epfl.ch/en/",
       "startDate": "2022-05-01",
       "endDate": "",
       "summary": "",
-      "highlights": ["Hierarchical clustering", "Metric sparsification of graphs"]
+      "highlights": ["Hierarchical community detection", "Clustering mixture models", "Metric sparsification of graphs"]
     },
     {
       "name": "High-school in Grenoble & Annecy, France",
       "position": "High-school Mathematic teacher",
-      "url": "",
       "startDate": "2016-09",
       "endDate": "2018-08",
       "summary": "",
-      "highlights": [""]
+      "highlights": []
     }
   ],
   "volunteer": [
@@ -41,7 +40,6 @@
       "organization": "",
       "location": "Zurich, Switzerland",
       "position": "Reviewer",
-      "url": "",
       "startDate": "2022",
       "endDate": "",
       "summary": "Peer review for various scientific journals and conferences.",
@@ -52,7 +50,7 @@
     {
       "institution": "INRIA Sophia Antipolis, France",
       "location": "Sophia Antipolis, France",
-      "url": "",
+      "url": "https://www.inria.fr/en/inria-centre-universite-cote-azur",
       "area": "Computer Science",
       "studyType": "PhD",
       "startDate": "2018-09-01",
@@ -63,7 +61,6 @@
     {
       "institution": "Université Toulouse Paul Sabatier",
       "location": "Toulouse, France",
-      "url": "",
       "area": "Mathematics",
       "studyType": "Agrégation de Mathématiques",
       "startDate": "2015-09-01",
@@ -74,7 +71,6 @@
     {
       "institution": "ENS Lyon",
       "location": "Lyon, France",
-      "url": "",
       "area": "Physics",
       "studyType": "Master & Bachelor",
       "startDate": "2012-09-01",
@@ -87,27 +83,13 @@
   "certificates": [ ],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Statistical Analysis of Networks",
+      "publisher": "Now Publishers",
+      "releaseDate": "2022-10-06",
+      "url": "https://nowpublishers.com/article/BookDetails/9781638280507",
+      "summary": "This book is a general introduction to the statistical analysis of networks, and can serve both as a research monograph and as a textbook. Numerous fundamental tools and concepts needed for the analysis of networks are presented, such as network modeling, community detection, graph-based semi-supervised learning and sampling in networks. The description of these concepts is self-contained, with both theoretical justifications and applications provided for the presented algorithms."
     }
-  ],
+ ],
   "skills": [ ],
   "languages": [
     {
