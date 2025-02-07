@@ -14,13 +14,7 @@
       "countryCode": "CH",
       "region": ""
     },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "MaximilienDreveton",
-        "url": "https://twitter.com/"
-      }
-    ]
+    "profiles": [ ]
   },
   "work": [
     {
@@ -29,8 +23,17 @@
       "url": "",
       "startDate": "2022-05-01",
       "endDate": "",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "summary": "",
+      "highlights": ["Hierarchical clustering", "Metric sparsification of graphs"]
+    },
+    {
+      "name": "High-school in Grenoble & Annecy, France",
+      "position": "High-school Mathematic teacher",
+      "url": "",
+      "startDate": "2016-09",
+      "endDate": "2018-08",
+      "summary": "",
+      "highlights": [""]
     }
   ],
   "volunteer": [
@@ -38,7 +41,7 @@
       "organization": "",
       "location": "Zurich, Switzerland",
       "position": "Reviewer",
-      "url": "https://example.com",
+      "url": "",
       "startDate": "2022",
       "endDate": "",
       "summary": "Peer review for various scientific journals and conferences.",
@@ -55,7 +58,29 @@
       "startDate": "2018-09-01",
       "endDate": "2022-04-30",
       "score": "",
-      "courses": ["Dissertation: Graph clustering and semi-supervised learning of non-binary, temporal and geometric networks"]
+      "courses": ["Graph clustering and semi-supervised learning of non-binary, temporal and geometric networks"]
+    },
+    {
+      "institution": "Université Toulouse Paul Sabatier",
+      "location": "Toulouse, France",
+      "url": "",
+      "area": "Mathematics",
+      "studyType": "Agrégation de Mathématiques",
+      "startDate": "2015-09-01",
+      "endDate": "2016-08-31",
+      "score": "",
+      "courses": ["(Agrégation is the highest degree of teaching certification in France, Master level"]
+    },
+    {
+      "institution": "ENS Lyon",
+      "location": "Lyon, France",
+      "url": "",
+      "area": "Physics",
+      "studyType": "Master & Bachelor",
+      "startDate": "2012-09-01",
+      "endDate": "2015-08-31",
+      "score": "",
+      "courses": ["Graph clustering and semi-supervised learning of non-binary, temporal and geometric networks"]
     }
   ],
   "awards": [ ],
