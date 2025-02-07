@@ -8,8 +8,10 @@
   title={Le{\c{c}}ons pour l’agr{\'e}gation de math{\'e}matiques-Pr{\'e}paration {\`a} l’oral},
   author={Dreveton, Maximilien and Lhabouz, Joachim},
   year={2019},
-  publisher={Editions Ellipses}
+  publisher={Editions Ellipses},
+  link = {https://www.editions-ellipses.fr/accueil/3543-lecons-pour-lagregation-de-mathematiques-preparation-a-loral-9782340030183.html}
 }
+
 
 
 @book{avrachenkov2022statistical,
@@ -22,6 +24,73 @@
   url={https://www.nowpublishers.com/article/BookDetails/9781638280507},
   doi={10.1561/9781638280514}
 }
+
+
+
+@article{dreveton2024metric,
+  abbr={NeurIPS},
+  selected={true},
+  author={Maximilien Dreveton and Charbel Chucri and Matthias Grossglauser and Patrick Thiran},
+  title={Why the Metric Backbone Preserves Community Structure},
+  year={2024},
+  journal={Advances in Neural Information Processing Systems},
+  volume={36},
+  url = {https://openreview.net/forum?id=Kx8I0rP7w2},
+  abstract = {The metric backbone of a weighted graph is the union of all-pairs shortest paths. It is obtained by removing all edges (u,v) that are not the shortest path between u and v. In networks with well-separated communities, the metric backbone tends to preserve many inter-community edges, because these edges serve as bridges connecting two communities, but tends to delete many intra-community edges because the communities are dense. This suggests that the metric backbone would dilute or destroy the community structure of the network. However, this is not borne out by prior empirical work, which instead showed that the metric backbone of real networks preserves the community structure of the original network well. In this work, we analyze the metric backbone of a broad class of weighted random graphs with communities, and we formally prove the robustness of the community structure with respect to the deletion of all the edges that are not in the metric backbone. An empirical comparison of several graph sparsification techniques confirms our theoretical finding and shows that the metric backbone is an efficient sparsifier in the presence of communities.},
+  openreview = {https://openreview.net/forum?id=Kx8I0rP7w2}
+}
+
+
+
+@article{dreveton2024universal,
+  abbr={COLT},
+  title = {Universal Lower Bounds and Optimal Rates: Achieving Minimax Clustering Error in Sub-Exponential Mixture Models},
+  author = {Dreveton, Maximilien and G{\"o}zeten, Alperen and Grossglauser, Matthias and Thiran, Patrick},
+  year = {2024},
+  pmlr = {https://proceedings.mlr.press/v247/dreveton24a.html}
+}
+
+
+
+@article{avrachenkov2023recovering,
+  abbr={TNSE},
+  title={Recovering static and time-varying communities using persistent edges},
+  author={Avrachenkov, Konstantin and Dreveton, Maximilien and Leskel{\"a}, Lasse},
+  journal={IEEE Transactions On Network Science And Engineering},
+  year={2023},
+  publisher={IEEE},
+  abstract = {This article focuses on spectral methods for recovering communities in temporal networks. In the case of fixed communities, spectral clustering on the simple time-aggregated graph (i.e., the weighted graph formed by the sum of the interactions over all temporal snapshots) does not always produce satisfying results. To utilise information carried by temporal correlations, we propose to employ different weights on freshly appearing and persistent edges. We show that spectral clustering on such weighted graphs can be explained as a relaxation of the maximum likelihood estimator of an extension of the degree-corrected stochastic block model with Markov interactions. We also study the setting of evolving communities, for which we use the prediction at time t−1 as an oracle for inferring the community labels at time t. We demonstrate the accuracy of the proposed methods on synthetic and real data sets.},
+  doi={10.1109/TNSE.2023.3337281}
+}
+
+
+
+@article{dreveton2023exact,
+  abbr={NeurIPS},
+  title={Exact recovery and Bregman hard clustering of node-attributed Stochastic Block Model},
+  author={Dreveton, Maximilien and Fernandes, Felipe and Figueiredo, Daniel},
+  journal={Advances in Neural Information Processing Systems},
+  volume={36},
+  year={2023},
+  url = {https://openreview.net/forum?id=TjJJmcHw9p},
+  abstract = {Classic network clustering tackles the problem of identifying sets of nodes (communities) that have similar connection patterns. However, in many scenarios nodes also have attributes that are correlated and can also be used to identify node clusters. Thus, network information (edges) and node information (attributes) can be jointly leveraged to design high-performance clustering algorithms. Under a general model for the network and node attributes, this work establishes an information-theoretic criteria for the exact recovery of community labels and characterizes a phase transition determined by the Chernoff-Hellinger divergence of the model. The criteria shows how network and attribute information can be exchanged in order to have exact recovery (e.g., more reliable network information requires less reliable attribute information). This work also presents an iterative clustering algorithm that maximizes the joint likelihood, assuming that the probability distribution of network interactions and node attributes belong to exponential families. This covers a broad range of possible interactions (e.g., edges with weights) and attributes (e.g., non-Gaussian models) while also exploring the connection between exponential families and Bregman divergences. Extensive numerical experiments using synthetic and real data indicate that the proposed algorithm outperforms algorithms that leverage only network or only attribute information as well as recently proposed algorithms that perform clustering using both sources of information. The contributions of this work provide insights into the fundamental limits and practical techniques for inferring community labels on node-attributed networks.},
+  openreview = {https://openreview.net/forum?id=TjJJmcHw9p},
+  video = {https://neurips.cc/virtual/2023/poster/71540},
+  poster = {https://maximiliendreveton.fr/wordpress2/wp-content/uploads/2024/10/Poster_Bregman_clustering_for_node_attributed_networks.pdf}
+}
+
+
+
+@article{dreveton2023does,
+  abbr={preprint},
+  title={When Does Bottom-up Beat Top-down in Hierarchical Community Detection?},
+  author={Dreveton, Maximilien and Kuroda, Daichi and Grossglauser, Matthias and Thiran, Patrick},
+  journal = {arXiv preprint arXiv:2306.00833},
+  year={2023},
+  abstract = {Hierarchical clustering of networks consists in finding a tree of communities, such that lower levels of the hierarchy reveal finer-grained community structures. There are two main classes of algorithms tackling this problem. Divisive (top-down) algorithms recursively partition the nodes into two communities, until a stopping rule indicates that no further split is needed. In contrast, agglomerative (bottom-up) algorithms first identify the smallest community structure and then repeatedly merge the communities using a linkage method. In this article, we establish theoretical guarantees for the recovery of the hierarchical tree and community structure of a Hierarchical Stochastic Block Model by a bottom-up algorithm. We also establish that this bottom-up algorithm attains the information-theoretic threshold for exact recovery at intermediate levels of the hierarchy. Notably, these recovery conditions are less restrictive compared to those existing for top-down algorithms. This shows that bottom-up algorithms extend the feasible region for achieving exact recovery at intermediate levels. Numerical experiments on both synthetic and real data sets confirm the superiority of bottom-up algorithms over top-down algorithms. We also observe that top-down algorithms can produce dendrograms with inversions. These findings contribute to a better understanding of hierarchical clustering techniques and their applications in network analysis.},
+  arXiv = {https://arxiv.org/abs/2306.00833}
+}
+
 
 
 @article{avrachenkov2021higher,
@@ -40,59 +109,7 @@
   abstract = {The present paper is devoted to clustering geometric graphs. While the standard spectral clustering is often not effective for geometric graphs, we present an effective generalization, which we call higher-order spectral clustering. It resembles in concept the classical spectral clustering method but uses for partitioning the eigenvector associated with a higher-order eigenvalue. We establish the weak consistency of this algorithm for a wide class of geometric graphs which we call Soft Geometric Block Model. A small adjustment of the algorithm provides strong consistency. We also show that our method is effective in numerical experiments even for graphs of modest size.}
 }
 
-@article{dreveton2023exact,
-  abbr={NeurIPS},
-  title={Exact recovery and Bregman hard clustering of node-attributed Stochastic Block Model},
-  author={Dreveton, Maximilien and Fernandes, Felipe and Figueiredo, Daniel},
-  journal={Advances in Neural Information Processing Systems},
-  volume={36},
-  year={2023},
-  url = {https://openreview.net/forum?id=TjJJmcHw9p},
-  abstract = {Classic network clustering tackles the problem of identifying sets of nodes (communities) that have similar connection patterns. However, in many scenarios nodes also have attributes that are correlated and can also be used to identify node clusters. Thus, network information (edges) and node information (attributes) can be jointly leveraged to design high-performance clustering algorithms. Under a general model for the network and node attributes, this work establishes an information-theoretic criteria for the exact recovery of community labels and characterizes a phase transition determined by the Chernoff-Hellinger divergence of the model. The criteria shows how network and attribute information can be exchanged in order to have exact recovery (e.g., more reliable network information requires less reliable attribute information). This work also presents an iterative clustering algorithm that maximizes the joint likelihood, assuming that the probability distribution of network interactions and node attributes belong to exponential families. This covers a broad range of possible interactions (e.g., edges with weights) and attributes (e.g., non-Gaussian models) while also exploring the connection between exponential families and Bregman divergences. Extensive numerical experiments using synthetic and real data indicate that the proposed algorithm outperforms algorithms that leverage only network or only attribute information as well as recently proposed algorithms that perform clustering using both sources of information. The contributions of this work provide insights into the fundamental limits and practical techniques for inferring community labels on node-attributed networks.},
- video = {https://neurips.cc/virtual/2023/poster/71540},
- poster = {https://maximiliendreveton.fr/wordpress2/wp-content/uploads/2024/10/Poster_Bregman_clustering_for_node_attributed_networks.pdf}
-}
 
-
-@article{dreveton2024metric,
-  abbr={NeurIPS},
-  selected={true},
-  author={Maximilien Dreveton and Charbel Chucri and Matthias Grossglauser and Patrick Thiran},
-  title={Why the Metric Backbone Preserves Community Structure},
-  year={2024},
-  journal={Advances in Neural Information Processing Systems},
-  volume={36},
-  url = {https://openreview.net/forum?id=Kx8I0rP7w2},
-  abstract = {The metric backbone of a weighted graph is the union of all-pairs shortest paths. It is obtained by removing all edges (u,v) that are not the shortest path between u and v. In networks with well-separated communities, the metric backbone tends to preserve many inter-community edges, because these edges serve as bridges connecting two communities, but tends to delete many intra-community edges because the communities are dense. This suggests that the metric backbone would dilute or destroy the community structure of the network. However, this is not borne out by prior empirical work, which instead showed that the metric backbone of real networks preserves the community structure of the original network well. In this work, we analyze the metric backbone of a broad class of weighted random graphs with communities, and we formally prove the robustness of the community structure with respect to the deletion of all the edges that are not in the metric backbone. An empirical comparison of several graph sparsification techniques confirms our theoretical finding and shows that the metric backbone is an efficient sparsifier in the presence of communities.},
-pdf = {https://openreview.net/pdf?id=Kx8I0rP7w2}
-}
-
-
-@article{dreveton2024universal,
-  abbr={COLT},
-  title = {Universal Lower Bounds and Optimal Rates: Achieving Minimax Clustering Error in Sub-Exponential Mixture Models},
-  author = {Dreveton, Maximilien and G{\"o}zeten, Alperen and Grossglauser, Matthias and Thiran, Patrick},
-  year = {2024}
-}
-
-
-@article{avrachenkov2023recovering,
-  abbr={TNSE},
-  title={Recovering static and time-varying communities using persistent edges},
-  author={Avrachenkov, Konstantin and Dreveton, Maximilien and Leskel{\"a}, Lasse},
-  journal={Ieee Transactions On Network Science And Engineering},
-  year={2023},
-  publisher={IEEE}
-}
-
-
-@article{dreveton2023does,
-  abbr={preprint},
-  title={When Does Bottom-up Beat Top-down in Hierarchical Community Detection?},
-  author={Dreveton, Maximilien and Kuroda, Daichi and Grossglauser, Matthias and Thiran, Patrick},
-  journal={arXiv preprint arXiv:2306.00833},
-  year={2023}
-}
 
 @article{avrachenkov2020community,
   abbr={preprint},
@@ -100,5 +117,38 @@ pdf = {https://openreview.net/pdf?id=Kx8I0rP7w2}
   title={Community recovery in non-binary and temporal stochastic block models},
   author={Avrachenkov, Konstantin and Dreveton, Maximilien and Leskel{\"a}, Lasse},
   journal={arXiv preprint arXiv:2008.04790},
-  year={2020}
+  year={2020},
+  abstract = {This article studies the estimation of latent community memberships from pairwise interactions in a network of N nodes, where the observed interactions can be of arbitrary type, including binary, categorical, and vector-valued, and not excluding even more general objects such as time series or spatial point patterns. As a generative model for such data, we introduce a stochastic block model with a general measurable interaction space S, for which we derive information-theoretic bounds for the minimum achievable error rate. These bounds yield sharp criteria for the existence of consistent and strongly consistent estimators in terms of data sparsity, statistical similarity between intra- and inter-block interaction distributions, and the shape and size of the interaction space. The general framework makes it possible to study temporal and multiplex networks with S={0,1}^T, in settings where both N→∞ and T→∞, and the temporal interaction patterns are correlated over time. For temporal Markov interactions, we derive sharp consistency thresholds. We also present fast online estimation algorithms which fully utilise the non-binary nature of the observed data. Numerical experiments on synthetic and real data show that these algorithms rapidly produce accurate estimates even for very sparse data arrays.},
+  arXiv = {https://arxiv.org/abs/2008.04790}
 }
+
+
+
+@article{avrachenkov2020almost, 
+  abbr={PEIS},
+  title={Almost exact recovery in noisy semi-supervised learning}, volume={39}, DOI={10.1017/S0269964824000135}, 
+  number={1}, 
+  journal={Probability in the Engineering and Informational Sciences}, 
+  author={Avrachenkov, Konstantin and Dreveton, Maximilien}, 
+  year={2025}, 
+  pages={1–22},
+  doi = {10.1017/S0269964824000135},
+  abstract = {Graph-based semi-supervised learning methods combine the graph structure and labeled data to classify unlabeled data. In this work, we study the effect of a noisy oracle on classification. In particular, we derive the maximum a posteriori (MAP) estimator for clustering a degree corrected stochastic block model when a noisy oracle reveals a fraction of the labels. We then propose an algorithm derived from a continuous relaxation of the MAP, and we establish its consistency. Numerical experiments show that our approach achieves promising performance on synthetic and real data sets, even in the case of very noisy labeled data.}
+}
+
+
+
+@inproceedings{avrachenkov2019almost,
+  abbr={WAW},
+  title={Almost exact recovery in label spreading},
+  author={Avrachenkov, Konstantin and Dreveton, Maximilien},
+  booktitle={Algorithms and Models for the Web Graph: 16th International Workshop, WAW 2019, Brisbane, QLD, Australia, July 6--7, 2019, Proceedings 16},
+  pages={30--43},
+  year={2019},
+  organization={Springer},
+  abstract = {In semi-supervised graph clustering setting, an expert provides cluster membership of few nodes. This little amount of information allows one to achieve high accuracy clustering using efficient computational procedures. Our main goal is to provide a theoretical justification why the graph-based semi-supervised learning works very well. Specifically, for the Stochastic Block Model in the moderately sparse regime, we prove that popular semi-supervised clustering methods like Label Spreading achieve asymptotically almost exact recovery as long as the fraction of labeled nodes does not go to zero and the average degree goes to infinity.},
+  doi = {10.1007/978-3-030-25070-6_3}
+}
+
+
+
