@@ -30,7 +30,10 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "news-our-paper-why-the-metric-backbone-preserves-community-structure-has-been-accepted-at-neurips-see-you-in-vancouver",
+        },{id: "news-our-paper-universal-lower-bounds-and-optimal-rates-achieving-minimax-clustering-error-in-sub-exponential-mixture-models-has-been-accepted-at-colt-see-you-in-edmonton",
+          title: 'Our paper ‘Universal Lower Bounds and Optimal Rates: Achieving Minimax Clustering Error in...',
+          description: "",
+          section: "News",},{id: "news-our-paper-why-the-metric-backbone-preserves-community-structure-has-been-accepted-at-neurips-see-you-in-vancouver",
           title: 'Our paper ‘Why the Metric Backbone Preserves Community Structure’ has been accepted at...',
           description: "",
           section: "News",},{id: "projects-project-1",
