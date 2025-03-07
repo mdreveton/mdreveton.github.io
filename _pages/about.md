@@ -25,4 +25,4 @@ announcements:
 
 I am a postdoctoral researcher at [INDY Lab](https://indy.epfl.ch), in EPFL, supervised by [Patrick Thiran](https://people.epfl.ch/patrick.thiran) and [Matthias Grossglauser](https://indy.epfl.ch/grossglauser/index.html). I obtained my PhD in Computer Science in 2022 from Inria Sophia Antipolis, under the supervision of [Konstantin Avratchenkov](https://www-sop.inria.fr/members/Konstantin.Avratchenkov/me.html). 
 
-My research focuses on developing innovative algorithms and understanding the theoretical limits for the **identification of meaningful patterns and structures within large datasets**. I am particularly interested in **network analysis** and **clustering**. 
+My research focuses on developing innovative algorithms and understanding the theoretical limits for the **identification of meaningful patterns and structures within large datasets**. I am particularly interested in **network analysis**, **community detection** and **clustering**. 
