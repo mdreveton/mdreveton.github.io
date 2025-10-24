@@ -3,20 +3,30 @@
     "name": "Maximilien Dreveton",
     "label": "Postdoctoral researcher",
     "image": "",
-    "email": "maximilien.dreveton@epfl.ch",
+    "email": "maximilien.dreveton@univ-eiffel.fr",
     "phone": "",
     "url": "https://www.maximiliendreveton.fr",
     "summary": "",
     "location": {
-      "address": "EPFL",
-      "postalCode": "1015",
-      "city": "Lausanne, Switzerland",
-      "countryCode": "CH",
+      "address": "Université Gustave Eiffel",
+      "postalCode": "77420",
+      "city": "Lausanne, Champs-sur-Marne",
+      "countryCode": "France",
       "region": ""
     },
     "profiles": [ ]
   },
   "work": [
+    {
+      "name": "Université Gustave Eiffel",
+      "position": "Assistant professor in statistics",
+      "url": "https://lama-umr8050.fr/membres/dreveton.maximilien",
+      "startDate": "2025-09-01",
+      "endDate": "",
+      "summary": "",
+      "highlights": ["Hierarchical community detection", "Clustering mixture models", "Metric sparsification of graphs"]
+    },
+
     {
       "name": "Ecole Polytechnique Federale De Lausanne",
       "position": "Postdoctoral researcher",

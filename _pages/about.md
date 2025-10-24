@@ -9,9 +9,9 @@ profile:
   image: prof_pic.jpg
   image_circular: True # crops the image to make it circular
   more_info: >
-    <p>EPFL</p>
-    <p> Office: INF 014</p>
-    <p>1015 Lausanne, Switzerland</p>
+    <p> Université Gustave-Eiffel </p>
+    <p> Bâtiment Copernic, Office: 4B 036</p>
+    <p> 77420 Champs-sur-Marne</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -23,12 +23,12 @@ announcements:
 
 ---
 
-I am an Assistant Professor (Maître de Conférences) in Statistics at [Université Paris Gustave-Eiffel](https://www.univ-gustave-eiffel.fr), and a member of [LAMA](https://lama-umr8050.fr) (Laboratoire d’analyse et de mathématiques appliquées).
+I am an Assistant Professor (Maître de Conférences) in Statistics at [Université Gustave-Eiffel](https://www.univ-gustave-eiffel.fr), and a member of [LAMA](https://lama-umr8050.fr) (Laboratoire d’analyse et de mathématiques appliquées).
 
 
 Prior to that, I was a postdoctoral researcher in the [INDY Lab](https://indy.epfl.ch) at EPFL, supervised by [Patrick Thiran](https://people.epfl.ch/patrick.thiran) and [Matthias Grossglauser](https://indy.epfl.ch/grossglauser/index.html). I obtained my PhD in Computer Science in 2022 from Inria Sophia Antipolis, where I was supervised by [Konstantin Avrachenkov](https://www-sop.inria.fr/members/Konstantin.Avratchenkov/me.html). 
 
-My research focuses on developing innovative algorithms and understanding the theoretical limits of the **identification of meaningful patterns and structures within large datasets**. I am particularly interested in **network analysis**, **community detection** and **clustering**. 
+My research focuses on developing innovative algorithms and understanding the theoretical limits of the **identification of meaningful patterns and structures within large datasets**. I am particularly interested in **network analysis**, **community detection** and **clustering**. I also work on **graph sparsification**. 
 
 Our book, [Statistical Analysis of Networks](https://nowpublishers.com/article/BookDetails/9781638280507), provides a general introduction to the statistical analysis of networks and present various concepts such as network modeling, community detection, graph-based semi-supervised learning, and sampling in networks. The book is available in open-access. 
 
