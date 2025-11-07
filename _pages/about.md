@@ -12,6 +12,7 @@ profile:
     <p> Université Gustave-Eiffel </p>
     <p> Bâtiment Copernic, Office: 4B 036</p>
     <p> 77420 Champs-sur-Marne</p>
+    <p> email: maximilien.xxx@univ-eiffel.fr and replace xxx with my lastname </p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
