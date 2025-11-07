@@ -1,8 +1,6 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
 @book{dreveton2019leccons,
   abbr={Book},
   preview={ellipses_front-cover.jpg},
@@ -36,6 +34,18 @@ Vous trouverez en outre de nombreuses remarques, ainsi qu’une motivation avant
 }
 
 
+@ inproceedings{dreveton2025optimal,
+  abbr={NeurIPS},
+  title={Optimal Graph Clustering without Edge Density Signals},
+  author={Dreveton, Maximilien and Liu, Elaine Siyu and Grossglauser, Matthias and Thiran, Patrick},
+  year={2025},
+  booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
+  url = {https://openreview.net/forum?id=WCPAHpVAUp},
+  abstract = {This paper establishes the theoretical limits of graph clustering under the Popularity-Adjusted Block Model (PABM), addressing limitations of existing models. In contrast to the Stochastic Block Model (SBM), which assumes uniform vertex degrees, and to the Degree-Corrected Block Model (DCBM), which applies uniform degree corrections across clusters, PABM introduces separate popularity parameters for intra- and inter-cluster connections. Our main contribution is the characterization of the optimal error rate for clustering under PABM, which provides novel insights on clustering hardness: we demonstrate that unlike SBM and DCBM, cluster recovery remains possible in PABM even when traditional edge-density signals vanish, provided intra- and inter-cluster popularity coefficients differ. This highlights a dimension of degree heterogeneity captured by PABM but overlooked by DCBM: local differences in connectivity patterns can enhance cluster separability independently of global edge densities. Finally, because PABM exhibits a richer structure, its expected adjacency matrix has rank between $k$ and $k^2$, where $k$ is the number of clusters. As a result, spectral embeddings based on the top $k$ eigenvectors may fail to capture important structural information. Our numerical experiments on both synthetic and real datasets confirm that spectral clustering algorithms incorporating $k^2$ eigenvectors outperform traditional spectral approaches.},
+  html = {https://openreview.net/forum?id=WCPAHpVAUp}
+}
+
+
 @InProceedings{trindade2025framework,
   abbr={Conference},
   doi = {10.1007/978-3-031-93619-7_2},
@@ -50,7 +60,6 @@ Vous trouverez en outre de nombreuses remarques, ainsi qu’une motivation avant
   abstract="Centrality indices, such as closeness and eccentricity, are key to identifying influential nodes within a network, with applications ranging from social and biological networks to communication and transportation systems. However, computing these indices for every node in large graphs is computationally prohibitive due to the need for solving the All-Pairs Shortest Path (APSP) problem. This paper introduces a framework for approximating closeness and eccentricity centrality by selecting a sequence of strategically chosen anchor nodes, from which Breadth-First Searches (BFS) are performed. We present two anchor-selection strategies that minimize estimation error for these indices and evaluate their effectiveness on synthetic and real-world networks. Comparative results indicate that while random anchor selection occasionally achieves lower errors for closeness, other strategies outperform in eccentricity estimation. This study highlights the effectiveness of anchor-based approximations and the trade-offs between different selection methods in estimating centrality at scale.",
   isbn="978-3-031-93619-7"
 }
-
 
 
 @article{leskela2025robust,
@@ -153,12 +162,15 @@ Vous trouverez en outre de nombreuses remarques, ainsi qu’une motivation avant
 
 
 @article{dreveton2023does,
-  abbr={preprint},
+  abbr={JASA},
   title={When Does Bottom-up Beat Top-down in Hierarchical Community Detection?},
   author={Dreveton, Maximilien and Kuroda, Daichi and Grossglauser, Matthias and Thiran, Patrick},
-  journal = {arXiv preprint arXiv:2306.00833},
+  journal = {Journal of the American Statistical Association},
   arXiv = {2306.00833},
-  year={2023},
+  number={just-accepted},
+  pages={1--20},
+  year={2025},
+  publisher={Taylor \& Francis},
   abstract = {Hierarchical clustering of networks consists in finding a tree of communities, such that lower levels of the hierarchy reveal finer-grained community structures. There are two main classes of algorithms tackling this problem. Divisive (top-down) algorithms recursively partition the nodes into two communities, until a stopping rule indicates that no further split is needed. In contrast, agglomerative (bottom-up) algorithms first identify the smallest community structure and then repeatedly merge the communities using a linkage method. In this article, we establish theoretical guarantees for the recovery of the hierarchical tree and community structure of a Hierarchical Stochastic Block Model by a bottom-up algorithm. We also establish that this bottom-up algorithm attains the information-theoretic threshold for exact recovery at intermediate levels of the hierarchy. Notably, these recovery conditions are less restrictive compared to those existing for top-down algorithms. This shows that bottom-up algorithms extend the feasible region for achieving exact recovery at intermediate levels. Numerical experiments on both synthetic and real data sets confirm the superiority of bottom-up algorithms over top-down algorithms. We also observe that top-down algorithms can produce dendrograms with inversions. These findings contribute to a better understanding of hierarchical clustering techniques and their applications in network analysis.}
 }
 
