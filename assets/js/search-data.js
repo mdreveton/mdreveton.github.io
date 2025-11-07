@@ -46,7 +46,7 @@ ninja.data = [{
           section: "News",},{id: "news-i-will-be-at-netsci-2025-in-maastricht-to-present-our-work-on-metric-sparsification-of-weighted-graphs-and-my-co-author-daichi-kuroda-will-present-our-work-on-hierarchical-community-detection",
           title: 'I will be at Netsci 2025 in Maastricht to present our work on...',
           description: "",
-          section: "News",},{id: "news-i-m-thrilled-to-share-a-few-updates-i-ve-recently-been-appointed-assistant-professor-at-gustave-eiffel-university-our-paper-https-doi-org-10-1080-01621459-2025-2569711-has-been-accepted-for-publication-in-the-journal-of-the-american-statistical-association-jasa-https-elaines-liu-github-io-and-i-will-be-attending-neurips-2025-in-san-diego-to-present-our-paper-optimal-graph-clustering-without-edge-density-signals",
+          section: "News",},{id: "news-i-m-thrilled-to-share-a-few-updates-i-ve-recently-been-appointed-assistant-professor-at-gustave-eiffel-university-our-paper-when-does-bottom-up-beat-top-down-in-hierarchical-community-detection-has-been-accepted-for-publication-in-the-journal-of-the-american-statistical-association-jasa-elaine-liu-and-i-will-be-attending-neurips-2025-in-san-diego-to-present-our-paper-optimal-graph-clustering-without-edge-density-signals",
           title: 'I’m thrilled to share a few updates! I’ve recently been appointed Assistant Professor...',
           description: "",
           section: "News",},{id: "projects-project-1",
