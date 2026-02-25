@@ -34,6 +34,18 @@ Vous trouverez en outre de nombreuses remarques, ainsi qu’une motivation avant
 }
 
 
+@article{dreveton2025hierarchical,
+  abbr={preprint},
+  title={Hierarchical Linkage Clustering Beyond Binary Trees and Ultrametrics},
+  author={Dreveton, Maximilien and Grossglauser, Matthias and Kuroda, Daichi and Thiran, Patrick},
+  journal={arXiv preprint arXiv:2511.18056},
+  year={2025},
+  arXiv = {2504.01663}, 
+  abstract = {Hierarchical clustering seeks to uncover nested structures in data by constructing a tree of clusters, where deeper levels reveal finer-grained relationships. Traditional methods, including linkage approaches, face three major limitations: (i) they always return a hierarchy, even if none exists, (ii) they are restricted to binary trees, even if the true hierarchy is non-binary, and (iii) they are highly sensitive to the choice of linkage function. In this paper, we address these issues by introducing the notion of a valid hierarchy and defining a partial order over the set of valid hierarchies. We prove the existence of a finest valid hierarchy, that is, the hierarchy that encodes the maximum information consistent with the similarity structure of the data set. In particular, the finest valid hierarchy is not constrained to binary structures and, when no hierarchical relationships exist, collapses to a star tree. We propose a simple two-step algorithm that first constructs a binary tree via a linkage method and then prunes it to enforce validity. We establish necessary and sufficient conditions on the linkage function under which this procedure exactly recovers the finest valid hierarchy, and we show that all linkage functions satisfying these conditions yield the same hierarchy after pruning. Notably, classical linkage rules such as single, complete, and average satisfy these conditions, whereas Ward's linkage fails to do so.}
+}
+
+
+
 @ inproceedings{dreveton2025optimal,
   abbr={NeurIPS},
   title={Optimal Graph Clustering without Edge Density Signals},
@@ -63,12 +75,18 @@ Vous trouverez en outre de nombreuses remarques, ainsi qu’une motivation avant
 
 
 @article{leskela2025robust,
-  abbr={preprint},
+  abbr={journal},
   title={Robust estimation of a Markov chain transition matrix from multiple sample paths},
   author={Leskel{\"a}, Lasse and Dreveton, Maximilien},
-  journal={arXiv preprint arXiv:2506.20325},
-  year={2025},
+  journal={Statistica Neerlandica},
+  volume={80},
+  number={1},
+  pages={e70023},
+  year={2026},
+  publisher={Wiley Online Library}
   arXiv = {2506.20325},
+  doi = {10.1111/stan.70023},
+  url = {https://doi.org/10.1111/stan.70023}, 
   abstract={Markov chains are fundamental models for stochastic dynamics, with applications in a wide range of areas such as population dynamics, queueing systems, reinforcement learning, and Monte Carlo methods. Estimating the transition matrix and stationary distribution from observed sample paths is a core statistical challenge, particularly when multiple independent trajectories are available. While classical theory typically assumes identical chains with known stationary distributions, real-world data often arise from heterogeneous chains whose transition kernels and stationary measures might differ from a common target. We analyse empirical estimators for such parallel Markov processes and establish sharp concentration inequalities that generalise Bernstein-type bounds from standard time averages to ensemble-time averages. Our results provide nonasymptotic error bounds and consistency guarantees in high-dimensional regimes, accommodating sparse or weakly mixing chains, model mismatch, nonstationary initialisations, and partially corrupted data. These findings offer rigorous foundations for statistical inference in heterogeneous Markov chain settings common in modern computational applications.}
 }
 
@@ -167,10 +185,12 @@ Vous trouverez en outre de nombreuses remarques, ainsi qu’une motivation avant
   author={Dreveton, Maximilien and Kuroda, Daichi and Grossglauser, Matthias and Thiran, Patrick},
   journal = {Journal of the American Statistical Association},
   arXiv = {2306.00833},
-  number={just-accepted},
-  pages={1--20},
+  number={0},
+  pages={1--12},
   year={2025},
   publisher={Taylor \& Francis},
+  doi = {10.1080/01621459.2025.2569711},
+  url = {https://doi.org/10.1080/01621459.2025.2569711},
   abstract = {Hierarchical clustering of networks consists in finding a tree of communities, such that lower levels of the hierarchy reveal finer-grained community structures. There are two main classes of algorithms tackling this problem. Divisive (top-down) algorithms recursively partition the nodes into two communities, until a stopping rule indicates that no further split is needed. In contrast, agglomerative (bottom-up) algorithms first identify the smallest community structure and then repeatedly merge the communities using a linkage method. In this article, we establish theoretical guarantees for the recovery of the hierarchical tree and community structure of a Hierarchical Stochastic Block Model by a bottom-up algorithm. We also establish that this bottom-up algorithm attains the information-theoretic threshold for exact recovery at intermediate levels of the hierarchy. Notably, these recovery conditions are less restrictive compared to those existing for top-down algorithms. This shows that bottom-up algorithms extend the feasible region for achieving exact recovery at intermediate levels. Numerical experiments on both synthetic and real data sets confirm the superiority of bottom-up algorithms over top-down algorithms. We also observe that top-down algorithms can produce dendrograms with inversions. These findings contribute to a better understanding of hierarchical clustering techniques and their applications in network analysis.}
 }
 
